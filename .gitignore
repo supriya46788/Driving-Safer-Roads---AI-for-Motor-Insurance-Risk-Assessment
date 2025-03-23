@@ -1,0 +1,18 @@
+# Ignore Python environment (Backend)
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3  # Ignore local database
+
+# Ignore Flutter build files (Frontend)
+frontend/build/
+frontend/.dart_tool/
+frontend/.idea/
+frontend/.vscode/
+frontend/.flutter-plugins
+frontend/pubspec.lock
+
+# Ignore system files
+.DS_Store
+node_modules/
