@@ -6,6 +6,7 @@ In today’s world, insurance premiums are often based on demographics rather th
 
 
 🚀 Features & Functionality
+
 🏁 1. User Authentication & Role-Based Login
 
 ~ Drivers: Access personalized risk insights, alerts, and driving reports.
