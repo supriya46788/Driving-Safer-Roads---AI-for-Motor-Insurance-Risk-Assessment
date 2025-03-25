@@ -70,4 +70,4 @@ In today’s world, insurance premiums are often based on demographics rather th
 
 * IoT/GPS APIs - Enables real-time location tracking and driving data collection.
 
-*Firestore - Stores risk reports and user data efficiently.
+* Firestore - Stores risk reports and user data efficiently.
