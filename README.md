@@ -71,3 +71,18 @@ In today’s world, insurance premiums are often based on demographics rather th
 * IoT/GPS APIs - Enables real-time location tracking and driving data collection.
 
 * Firestore - Stores risk reports and user data efficiently.
+
+```
+🔹 Set Up Backend (Django):
+```bash
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+🔹 Set Up Frontend (Flutter):
+```bash
+cd frontend
+flutter pub get
+flutter run
+```
