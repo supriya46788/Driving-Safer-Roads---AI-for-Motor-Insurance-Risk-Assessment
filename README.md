@@ -50,16 +50,16 @@ In today’s world, insurance premiums are often based on demographics rather th
 
 
 🛠️ Technology Stack
-*Django - Used as the backend framework for AI processing and API development.
+* Django - Used as the backend framework for AI processing and API development.
 
-*Flutter - Handles the frontend, providing a cross-platform web and mobile interface.
+* Flutter - Handles the frontend, providing a cross-platform web and mobile interface.
 
-*Firebase - Used for authentication and deployment.
+* Firebase - Used for authentication and deployment.
 
-*Render - Hosts the backend API.
+* Render - Hosts the backend API.
 
-*Google Gemini API - Powers AI-driven driving insights.
+* Google Gemini API - Powers AI-driven driving insights.
 
-*IoT/GPS APIs - Enables real-time location tracking and driving data collection.
+* IoT/GPS APIs - Enables real-time location tracking and driving data collection.
 
 *Firestore - Stores risk reports and user data efficiently.
