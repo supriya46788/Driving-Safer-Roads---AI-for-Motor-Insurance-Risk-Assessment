@@ -40,6 +40,7 @@ In today’s world, insurance premiums are often based on demographics rather th
 ~ Reduces fraud by ensuring fair, behavior-based pricing.
 
 📢 6. Real-Time Driving Insights
+
 ~ Tracks historical driving data for self-improvement.
 
 ~ Gives personalized tips to lower risk scores.
