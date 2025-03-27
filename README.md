@@ -13,6 +13,14 @@ In today’s world, insurance premiums are often based on demographics rather th
 6. **User Feedback & Report Generation** - Gathers user insights for continuous system improvements.  
 7. **Real-time Tracking APIs** - Uses GPS & IoT to collect accurate driving data.
 
+
+
+
+
+![Screenshot 2025-03-27 102335](https://github.com/user-attachments/assets/25e844d8-787a-4dcb-a100-5cdffc968fbf)
+
+
+
 ## 🛠 Technologies Used  
 - **Frontend:** Flutter (Dart) - Cross-platform UI development.  
 - **Backend:** Django (Python) - API handling and business logic.  
