@@ -4,85 +4,50 @@ Revolutionizing Road Safety & Insurance with AI
 In today’s world, insurance premiums are often based on demographics rather than real driving behavior, leading to unfair pricing and ineffective risk assessment.
 **BimaRakshak AI** is an AI-driven motor insurance risk assessment platform that leverages **real-time driving data, AI-powered insights, and risk evaluation** to enhance road safety and enable fair insurance policies. It creates a **win-win scenario for both drivers and insurers** by promoting **safer driving habits and smarter insurance policies**.
 
+## 🎯 Key Features  
+1. **User Authentication (Firebase)** - Secure login and registration system.  
+2. **AI-Based Risk Assessment** - Monitors driving behavior, including acceleration, braking, and speeding.  
+3. **Accident-Prone Zone Detection** - Identifies high-risk areas and alerts drivers.  
+4. **Insurance Premium Optimization** - Adjusts premium pricing based on real-time driving scores.  
+5. **Gemini AI Chat Assistant** - Provides driving safety tips and policy recommendations.  
+6. **User Feedback & Report Generation** - Gathers user insights for continuous system improvements.  
+7. **Real-time Tracking APIs** - Uses GPS & IoT to collect accurate driving data.
 
-🚀 Features & Functionality
+## 🛠 Technologies Used  
+- **Frontend:** Flutter (Dart) - Cross-platform UI development.  
+- **Backend:** Django (Python) - API handling and business logic.  
+- **Database:** Firestore - Secure and scalable data storage.  
+- **Authentication:** Firebase - User login and authentication.  
+- **AI & ML:** Google Gemini API - AI-driven recommendations and insights.  
+- **Real-Time Tracking:** GPS & IoT APIs - Captures real-world driving behavior.  
+- **Deployment:** Firebase (Frontend), Render (Backend).  
+- **Development Platform:** Built using **Google Cloud IDX** for cloud-based collaboration.
 
+## 📌 Setup Instructions  
+1. **Clone the Repository:**  
+   ```sh
+   git clone https://github.com/supriya46788/Driving-Safer-Roads---AI-for-Motor-Insurance-Risk-Assessment.git
+   cd Driving-Safer-Roads---AI-for-Motor-Insurance-Risk-Assessment
+   ```
+2. **Install Dependencies:**  
+   - **Backend (Django)**  
+     ```sh
+     pip install -r requirements.txt
+     python manage.py migrate
+     ```
+   - **Frontend (Flutter)**  
+     ```sh
+     flutter pub get
+     flutter run
+     ```
+3. **Configure Firebase Authentication** (Follow Firebase setup guide).  
+4. **Deploy the Project:**  
+   - **Frontend:** Firebase Hosting  
+   - **Backend:** Render
+  
+## 📌 Future Enhancements  
+- Integration with **telematics-based insurance models**.  
+- **More AI-driven insights** for drivers and insurance companies.  
+- **Expansion to fleet management** and corporate vehicle risk assessment. 
 
-🏁 1. User Authentication & Role-Based Login
-
-~ Drivers: Access personalized risk insights, alerts, and driving reports.
-
-~ Insurers: View driver risk assessments, analyze reports, and customize premiums.
-
-📊 2. AI-Powered Risk Assessment
-
-~ Continuously monitors driving behavior (speed, braking, lane discipline).
-
-~ Assigns a real-time risk score based on AI analysis.
-
-~ Alerts drivers about unsafe behavior and accident-prone zones.
-
-🤖 3. AI Chatbot Assistance
-
-~ Provides real-time recommendations on safer driving.
-
-~ Alerts drivers before entering high-risk zones.
-
-~ Offers guidance on reducing insurance premiums through better driving habits.
-
-📍 4. Accident Detection & Real-Time Alerts
-
-~ AI detects sudden braking, swerving, and impact.
-
-~ Automatically notifies the insurer for claim processing.
-
-~ Can trigger emergency assistance requests if necessary.
-
-🏦 5. AI-Based Insurance Premium Calculation
-
-~ Insurers can view risk profiles of drivers based on real behavior.
-
-~ Generates dynamic premium rates—safer drivers pay less, risky drivers pay more.
-
-~ Reduces fraud by ensuring fair, behavior-based pricing.
-
-📢 6. Real-Time Driving Insights
-
-~ Tracks historical driving data for self-improvement.
-
-~ Gives personalized tips to lower risk scores.
-
-~ Ensures data-driven decision-making for safer roads.
-
-
-
-
-🛠️ Technology Stack
-* Django - Used as the backend framework for AI processing and API development.
-
-* Flutter - Handles the frontend, providing a cross-platform web and mobile interface.
-
-* Firebase - Used for authentication and deployment.
-
-* Render - Hosts the backend API.
-
-* Google Gemini API - Powers AI-driven driving insights.
-
-* IoT/GPS APIs - Enables real-time location tracking and driving data collection.
-
-* Firestore - Stores risk reports and user data efficiently.
-
-```
-🔹 Set Up Backend (Django):
-```bash
-cd backend
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
-🔹 Set Up Frontend (Flutter):
-```bash
-cd frontend
-flutter pub get
-flutter run
-```
+  
