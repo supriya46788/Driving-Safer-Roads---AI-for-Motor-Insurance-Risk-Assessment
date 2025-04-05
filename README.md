@@ -16,10 +16,10 @@ In today’s world, insurance premiums are often based on demographics rather th
 
 
 ## Screenshots
-<img src="https://github.com/user-attachments/assets/114c3f97-a9f1-47db-a0c6-2efcb450578e" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 20px; margin-bottom: 20px;"/>
-<img src="https://github.com/user-attachments/assets/364d76cb-892b-4e33-a4ec-67d99b34029b" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 20px; margin-bottom: 20px;"/>
-<img src="https://github.com/user-attachments/assets/bfa16078-9ab6-49cc-830d-7a629c363920" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 20px; margin-bottom: 20px;"/>
-<img src="https://github.com/user-attachments/assets/4704f130-4424-4f23-bf6f-33be567b33f2" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 20px; margin-bottom: 20px;"/>
+<img src="https://github.com/user-attachments/assets/114c3f97-a9f1-47db-a0c6-2efcb450578e" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 40px; margin-bottom: 40px;"/><br>
+<img src="https://github.com/user-attachments/assets/364d76cb-892b-4e33-a4ec-67d99b34029b" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 40px; margin-bottom: 40px;"/><br>
+<img src="https://github.com/user-attachments/assets/bfa16078-9ab6-49cc-830d-7a629c363920" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 40px; margin-bottom: 40px;"/><br>
+<img src="https://github.com/user-attachments/assets/4704f130-4424-4f23-bf6f-33be567b33f2" alt="Screenshot 2025-04-05 085029" width="700" style="margin-right: 40px; margin-bottom: 40px;"/><br>
 
 
 
