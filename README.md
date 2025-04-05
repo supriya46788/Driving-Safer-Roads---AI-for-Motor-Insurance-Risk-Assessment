@@ -16,7 +16,13 @@ In today’s world, insurance premiums are often based on demographics rather th
 
 
 ![Screenshot 2025-04-05 085029](https://github.com/user-attachments/assets/114c3f97-a9f1-47db-a0c6-2efcb450578e)
-![Screenshot 2025-04-05 085044](https://github.com/user-attachments/assets/6ac1b516-0f14-4c76-bdc9-967c84f3508f)
+![Screenshot 2025-04-05 090419](https://github.com/user-attachments/assets/364d76cb-892b-4e33-a4ec-67d99b34029b)
+![Screenshot 2025-04-05 090523](https://github.com/user-attachments/assets/bfa16078-9ab6-49cc-830d-7a629c363920)
+![Screenshot 2025-04-05 090457](https://github.com/user-attachments/assets/4704f130-4424-4f23-bf6f-33be567b33f2)
+
+
+
+
 
 
 ## 🛠 Technologies Used  
