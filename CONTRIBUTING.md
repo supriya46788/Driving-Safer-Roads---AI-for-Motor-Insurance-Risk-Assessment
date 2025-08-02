@@ -1,38 +1,79 @@
-# CONTRIBUTING.md
-Hey! Thanks for wanting to contribute :)
 
-Here’s what you need to do:
+# Contributing to BimaRakshak AI
 
+Thank you for contributing to BimaRakshak AI.
 
-# Steps:
+## Steps to Contribute
 
-1. **Fork this repo**  
-   (Click the “Fork” button on the top right.)
+### 1. Fork the Repository
 
-2. **Clone your fork**  
-   Copy the link and run:
-   git clone https://github.com/your-username/your-fork.git
-   cd your-fork
+Go to: https://github.com/supriya46788/Driving-Safer-Roads---AI-for-Motor-Insurance-Risk-Assessment  
+Click the **“Fork”** button on the top right.
 
-3. **Make a new branch**
-   git checkout -b your-branch-name
+### 2. Clone Your Fork
 
-4. **Make your changes**  
-   Do whatever you’re contributing — fix something, add something, anything.
+```bash
+git clone https://github.com/supriya46788/Driving-Safer-Roads---AI-for-Motor-Insurance-Risk-Assessment.git
+cd Driving-Safer-Roads---AI-for-Motor-Insurance-Risk-Assessment
+```
 
-5. **Save, commit, and push**
-   git add .
-   git commit -m \"your message\"
-   git push origin your-branch-name
+### 3. Create a New Branch
 
-6. **Create a Pull Request (PR)**  
-   Go to your fork on GitHub → click “Compare & pull request” → write what you did → submit!
+```bash
+git checkout -b feature/your-feature-name
+```
 
+> Use a meaningful branch name (e.g., `fix/login-error`, `feature/ai-risk-score`).
 
-<!-- If you’re confused, don’t worry open an issue or just ask. Happy contributing :)" > CONTRIBUTING.md
-git add CONTRIBUTING.md
-git commit -m "Add simple CONTRIBUTING.md guide"
-git push origin add-contributing-md -->
+### 4. Set Up Locally
 
-# If you get stuck anywhere, don’t worry, just open an issue or ask.
-# Happy contributing
+#### Backend (Django)
+
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+```
+
+#### Frontend (Flutter)
+
+```bash
+flutter pub get
+flutter run
+```
+
+#### Firebase
+
+- Set up Firebase project
+- Enable Email/Password Authentication
+- Add `google-services.json` or `GoogleService-Info.plist` to your project
+
+### 5. Make Changes
+
+- Keep code clean and modular
+- Test your changes before committing
+- Avoid breaking existing features
+
+### 6. Commit & Push
+
+```bash
+git add .
+git commit -m "feat: describe your change here"
+git push origin feature/your-feature-name
+```
+
+### 7. Create a Pull Request
+
+- Go to your fork on GitHub
+- Click **"Compare & pull request"**
+- Write a clear description of what you changed
+- Submit
+
+---
+
+## Notes
+
+- Do not push to `main` directly
+- One PR per feature or fix
+- If stuck, open an issue with details
+
+Thank you!
