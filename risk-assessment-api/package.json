@@ -1,0 +1,14 @@
+{
+  "name": "risk-assessment-api",
+  "version": "1.0.0",
+  "description": "API to calculate driving risk score and grade",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Bhoomi Awhad",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
