@@ -50,4 +50,9 @@ In today’s world, insurance premiums are often based on demographics rather th
 - **More AI-driven insights** for drivers and insurance companies.  
 - **Expansion to fleet management** and corporate vehicle risk assessment. 
 
+## 📝 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, modify, and distribute this software with proper attribution.
+
   
