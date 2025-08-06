@@ -14,7 +14,7 @@ void main() {
 }
 
 class InsuranceApp extends StatelessWidget {
-  const InsuranceApp({Key? key}) : super(key: key);
+  const InsuranceApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +65,7 @@ class InsuranceApp extends StatelessWidget {
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                 ),
                 const SizedBox(width: 8),
                 Text(
-                  'DriveGuard',
+                  'BimaRakshak AI',
                   style: TextStyle(
                     color: Theme.of(context).primaryColor,
                     fontWeight: FontWeight.bold,
@@ -641,7 +641,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                       ),
                       const SizedBox(width: 8),
                       const Text(
-                        'DriveGuard',
+                        'BimaRakshak AI',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,
@@ -697,7 +697,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                         size: 16,
                       ),
                       const SizedBox(width: 8),
-                      _buildFooterLink('support@driveguard.com'),
+                      _buildFooterLink('support@BimaRakshak AI.com'),
                     ],
                   ),
                   const SizedBox(height: 16),
@@ -718,7 +718,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           const Divider(color: Colors.white24),
           const SizedBox(height: 24),
           Text(
-            '© ${DateTime.now().year} DriveGuard. All rights reserved.',
+            '© ${DateTime.now().year} BimaRakshak AI. All rights reserved.',
             style: const TextStyle(
               color: Colors.white54,
             ),
@@ -746,7 +746,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
 
 // Placeholder pages for navigation
 class DashboardPage extends StatelessWidget {
-  const DashboardPage({Key? key}) : super(key: key);
+  const DashboardPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -777,7 +777,7 @@ class DashboardPage extends StatelessWidget {
 }
 
 class InsightsPage extends StatelessWidget {
-  const InsightsPage({Key? key}) : super(key: key);
+  const InsightsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -808,7 +808,7 @@ class InsightsPage extends StatelessWidget {
 }
 
 class InsurancePage extends StatelessWidget {
-  const InsurancePage({Key? key}) : super(key: key);
+  const InsurancePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -839,7 +839,7 @@ class InsurancePage extends StatelessWidget {
 }
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+  const ProfilePage({super.key});
 
   @override
   Widget build(BuildContext context) {
