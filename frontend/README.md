@@ -1,4 +1,4 @@
-# my_project
+# BimaRakshak AI
 
 A new Flutter project.
 
