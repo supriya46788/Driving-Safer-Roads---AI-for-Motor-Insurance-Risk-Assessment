@@ -4,6 +4,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
+// new: centralized theme
+import 'theme.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
@@ -21,38 +24,10 @@ class InsuranceApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'AI-Driven Risk Assessment',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        primaryColor: const Color(0xFF2A6AD0),
-        fontFamily: GoogleFonts.poppins().fontFamily,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        textTheme: TextTheme(
-          headlineLarge: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.blueGrey[800],
-            fontSize: 28,
-          ),
-          headlineMedium: TextStyle(
-            fontWeight: FontWeight.w600,
-            color: Colors.blueGrey[700],
-            fontSize: 24,
-          ),
-          bodyLarge: TextStyle(
-            color: Colors.blueGrey[700],
-            fontSize: 16,
-          ),
-        ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            foregroundColor: Colors.white,
-            backgroundColor: const Color(0xFF2A6AD0),
-            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8),
-            ),
-          ),
-        ),
-      ),
+      // <- Global theme wired to centralized AppTheme
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
+      themeMode: ThemeMode.system, // respects user's OS preference
       home: const HomePage(),
       routes: {
         '/dashboard': (context) => const DashboardPage(),
